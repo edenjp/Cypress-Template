@@ -1,0 +1,21 @@
+{
+  "name": "template_cypress",
+  "version": "1.0.0",
+  "description": "Este projeto é destinado a ser utilizado como template base para projetos que forem automatizar utilizando o Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:dev": "cypress open --env fileConfig=dev-env",
+    "cy:hml": "cypress open --env fileConfig=hml-env",
+    "cy:prod": "cypress open --env fileConfig=prod-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edenjp/Cypress-Template"
+  },
+  "author": "Éden Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+    "baseUrl": "https://www.google.com.br/",
+    "env": {
+        "userId": "456",
+        "environment": "hml-env"
+    }
+}

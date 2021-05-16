@@ -1,0 +1,8 @@
+
+{
+    "baseUrl": "https://www.google.com/",
+    "env": {
+        "url": "https://www.google.com/",
+        "environment": "prod-env"
+    }
+}
