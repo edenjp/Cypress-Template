@@ -17,8 +17,10 @@ describe("Dado que eu esteja na pagina inicial do Google", function () {
         cy.visit('/')
         cy.get('.gLFyf').type("youtube")
         cy.get('.gLFyf').type('{enter}')
-        cy.get('[href="https://www.youtube.com/"]').click()
+        cy.get('[href="https://www.youtube.com/?gl=BR&hl=PT"] > .LC20lb').click()
+        cy.get('[aria-label="Explorar"] > #endpoint > #icon').click()
         cy.url().should('be.equal','https://www.youtube.com/')
       });
     });
   });
+

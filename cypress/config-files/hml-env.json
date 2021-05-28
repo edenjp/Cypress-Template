@@ -1,6 +1,6 @@
 
 {
-    "baseUrl": "https://www.google.com.br/",
+    "baseUrl": "https://services.github.com/",
     "env": {
         "userId": "456",
         "environment": "hml-env"
